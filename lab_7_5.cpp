@@ -2,13 +2,20 @@
 
 using namespace std;
 
-int main () {
+int main ()
+{
 
-  int num = 36;
-  // การหาเลขคู่ และแสดงเฉพาะเลขคู่
-  if ((num % 2) == 0)) {
-    cout << num << endl;
-  }
+    int num = 0;
+    // การหาเลขคู่ และแสดงเฉพาะเลขคู่
 
-  return 0;
+    while( num < 65535 )
+    {
+        if ((num % 2) == 0)
+        {
+            cout << num << endl;
+        }
+        num++;
+    }
+
+    return 0;
 }
